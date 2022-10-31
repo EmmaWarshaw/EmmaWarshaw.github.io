@@ -1,0 +1,16 @@
+---
+title: "HW 4 Problem 2"
+output: 
+html_document:
+  toc: true
+  toc_float: true
+--- 
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+### Homework 4 Dashboard Exercise

@@ -5,6 +5,10 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/emma-warshaw-a8047b151/
     - icon: fa-envelope fa-lg
       href: mailto:<ew2718@cumc.columbia.edu>
     - icon: fa-github fa-lg

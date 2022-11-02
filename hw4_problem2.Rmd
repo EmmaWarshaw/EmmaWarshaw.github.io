@@ -1,5 +1,5 @@
 ---
-title: "HW 4 Problem 2"
+title: "HW 4 Problem 2 Dashboard"
 output:
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -16,7 +16,7 @@ library(plotly)
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Count of all Restaurants by Borough
 ```{r, echo=FALSE}
 data_restaurants = rest_inspec
   
@@ -30,38 +30,26 @@ count(boro) %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Boxplot of Scores in Each Borough
 ```{r, echo=FALSE}
-box_plot = 
-  data_restaurants %>%
+data_restaurants %>%
   mutate(boro = fct_reorder(boro, score)) %>%
   filter(boro != "Missing") %>%
   drop_na(score) %>%
-  ggplot(aes(x = boro, y = score, fill = boro)) + 
-  geom_boxplot() + 
-  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-  labs(
-    title = "Boxplot of Scores in Each Borough"
-  ) 
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis")
 
-ggplotly(box_plot)
-  
 ```
 
-### Chart C
+### Critical Thai Restaurants in Manhattan by Zipcode
 
 ```{r, echo=FALSE}
-thai_plot = 
-  data_restaurants %>%
+data_restaurants %>%
   filter(cuisine_description == "Thai") %>%
   filter(boro == "MANHATTAN") %>%
   filter(critical_flag == "Critical") %>%
-  ggplot(aes(x = zipcode, fill = zipcode)) + 
-  geom_histogram(binwidth = 2) + 
-  labs(
-    title = "Critical Thai Restaurants in Manhattan by Zipcode"
-  ) 
-
-ggplotly(thai_plot)
+  mutate(zipcode = as.character(zipcode)) %>%
+  count(zipcode) %>%
+  mutate(zipcode = fct_reorder(zipcode, n)) %>%
+  plot_ly(x = ~zipcode, y = ~n, color = ~zipcode, type = "bar", colors = "viridis")
 
 ```

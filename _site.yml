@@ -6,7 +6,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Dashboard"
-      href: dashboard.html
+      href: hw4_problem2.html
     - icon: fa-brands fa-linkedin
       href: https://www.linkedin.com/in/emma-warshaw-a8047b151/
     - icon: fa-envelope fa-lg

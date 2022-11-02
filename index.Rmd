@@ -1,7 +1,28 @@
 ---
-title: "Holy cow!"
----
+title: "My Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+--- 
 
-### I have a webpage!
+### Welcome to my website!
 
-And I can put all kinds of stuff on it!
+This website has two pages: 
+
+[About me](about.html)
+
+[HW4: Interactive Dashboard](hw4_problem2.html)
+
+For the dashboard, I used the [New York Restaurant inspection data](https://p8105.com/dataset_restaurant_inspections.html).  The first histogram is a plot of the total restaurants in each borough.  The box plot shows a distribution of rating scores in each borough.  The final histogram shows Thai restaurants marked as "critical" in Manhattan zip codes.  I really like Thai food and live in Manhattan.  Good to know which zip codes to avoid.   
+
+## Fun Things...
+
+We seem to be sharing pictures of pets in this class, so here's my entry.  
+
+This is Giselle.  She's almost 14 years old but acts like a human toddler.  She enjoys barking at her food for no apparent reason and running errands in her stroller (she has two replaced knees and can't walk for long distances anymore). 
+
+![](/Users/emmawarshaw/Desktop/Data Science 1/Git and GitHub/EmmaWarshaw.github.io/images/giselle_1.png){width=30%}
+
+![](/Users/emmawarshaw/Desktop/Data Science 1/Git and GitHub/EmmaWarshaw.github.io/images/giselle_2.png){width=30%}
+

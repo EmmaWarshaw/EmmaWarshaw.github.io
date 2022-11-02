@@ -11,7 +11,7 @@
 
 
 
-<title>About</title>
+<title>About me</title>
 
 <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -228,6 +231,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -235,6 +301,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -287,21 +363,132 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
+<h1 class="title toc-ignore">About me</h1>
 
 </div>
 
 
-<div id="about-this-site" class="section level3">
-<h3>About this site</h3>
-<p>Sometimes you need to say a bit about the site – how it was made,
-where it’s hosted, where the source code can be found.</p>
-<p>If this is for a project or analysis, I recommend giving some details
-about the R package versions that you used to create the content.</p>
+<div id="emma-warshaw" class="section level2">
+<h2>Emma Warshaw</h2>
+<p>Hello and welcome to my website. My name is Emma Warshaw and I’m a
+Master’s candidate at Columbia University’s Mailman School of Public
+Health. I’m interested in using public health data to inspire change in
+healthcare policy and delivery.</p>
+<p>I have a variety of experiences in fields like publishing, data
+analytics, and political action and advocacy.</p>
+</div>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<p><strong>Master of Public Health</strong><br />
+June 2023 Columbia University Mailman School of Public Health Candidate,
+Department of Population and Family Health Certificate in Applied
+Biostatistics and Public Health Data Science GPA: 3.95</p>
+<p><strong>Bachelor of Science in Global Disease Biology</strong><br />
+June 2020 Minors in Philosophy and French University of California,
+Davis</p>
+<p><strong>Fall Semester Abroad: French Immersion</strong><br />
+December 2019 University of California Education Abroad Program<br />
+Sciences Politiques Lyon- Institut d’Études Politiques L’Université
+Lumière Lyon 2</p>
+</div>
+<div id="experience" class="section level2">
+<h2>Experience</h2>
+<p><strong>National Council of Jewish Women</strong> Graduate Fellow,
+Government Relations &amp; Advocacy<br />
+September 2022-Present</p>
+<p>• Drafting issue portfolios, advocacy material, op-eds and letters of
+support on behalf of the organization. • Gaining an understanding of the
+legislative process by assisting with legislative hearings, briefings,
+national coalition meetings, rallies, and press conferences.</p>
+<p><strong>ICAP Global Health at Columbia</strong> Summer Research
+Assistant<br />
+May 2022- Present</p>
+<p>• Developed a data analysis project working with Covid-19 data. •
+Gained applicable data science skills in SAS. • Developing a research
+question, analysis plan, and reported key findings in preparation for an
+academic paper.</p>
+<p><strong><em>The Desperate Hours</em></strong> Researcher and Fact
+Checker<br />
+February 2022- June 2022</p>
+<p>Working with Marie Brenner, Author and Vanity Fair Writer-at-Large,
+I:</p>
+<p>• Served as a fact checker and researcher on The Desperate Hours, a
+journalistic account of the COVID-19 pandemic inside the New York
+Presbyterian hospital system.</p>
+<p>• Gained experience in copy editing, fact checking a large research
+piece, and science writing.</p>
+<p>• Produced all source notes while working with a team of researchers
+to produce a manuscript on an accelerated timeline.</p>
+<p><strong>Students for Reproductive Freedom at UC Davis</strong>
+Co-Founder and Vice President<br />
+April 2018-June 2020</p>
+<p>• Served as the Co-Founder and Vice President for this student
+organization.<br />
+• As an affiliate of Planned Parenthood Generation Action, this student
+organization focuses on reproductive justice awareness on our
+campus.<br />
+• Developed organizational structure and organized campus educational
+programming. • Assisted with lobbying and outreach efforts on the
+College Student Right to Access Act.</p>
+<p><strong>Joan Viteri Memorial Clinic</strong> Lead Trainer<br />
+December 2018-June 2020</p>
+<p>• Served as the first ever Lead Trainer for this undergraduate-run
+community clinic.<br />
+• Created and wrote the first training manual for clinic functions,
+including information on HIPAA, taking patient vitals, and sensitivity
+training guidelines.<br />
+• Developed a curriculum and taught two new classes of volunteers,
+totaling 40 students, alongside another undergraduate.</p>
+<p><strong>Falbe Lab</strong> Research Assistant<br />
+January 2018-June 2020</p>
+<p>• Assisted in public health research concerning young adult
+consumption of sugar-sweetened beverages.<br />
+• Gained hands-on experience with data collection and analysis in a team
+setting, as well as experience writing academic papers.</p>
+</div>
+<div id="skills" class="section level2">
+<h2>Skills</h2>
+<p>Quantitative Analysis – R Studio (beginner), SPSS (intermediate), SAS
+(intermediate)</p>
+<p>Qualitative Analysis – MaxQDA</p>
+<p>French Language – working fluency</p>
+<p>Writing- journalistic and academic</p>
+<p>Problem Solving</p>
+<p>Public Speaking</p>
+<p>Leadership Experience</p>
+<p>Microsoft Office Suite</p>
+</div>
+<div id="awards-and-honors" class="section level2">
+<h2>Awards and Honors</h2>
+<p>UC Davis Dean’s Honor List January 2017 Mentioned for outstanding
+Fall Quarter GPA (3.91)</p>
+<p>Global Disease Biology Prize June 2020 Honorable Mention, awarded to
+two students every academic year</p>
+<p>UC Davis Prized Writing June 2020 Honorable mention</p>
+</div>
+<div id="licenses-and-certifications" class="section level2">
+<h2>Licenses and Certifications</h2>
+<p>Emergency Medical Technician Basic (October 2017)</p>
+</div>
+<div id="relevant-coursework" class="section level2">
+<h2>Relevant Coursework</h2>
+<p><strong>Biostatistics</strong></p>
+<p>Categorical Data Analysis</p>
+<p>Regression I</p>
+<p>Data Science (using R)</p>
+<p>Quantitative Data Analysis (using SPSS)</p>
+<p>Statistical Computing with SAS</p>
+<p><strong>Population and Family Health</strong></p>
+<p>Program Planning and Evaluation</p>
+<p>Research Design and Data Collection</p>
+<p>Planning, Managing and Communicating Evidence-Based Public Health
+Research</p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -334,6 +521,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

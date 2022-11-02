@@ -1,9 +1,142 @@
 ---
-title: "About"
+title: "About me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
-### About this site
+## Emma Warshaw
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+Hello and welcome to my website.  My name is Emma Warshaw and I'm a Master's candidate at Columbia University's Mailman School of Public Health.  I'm interested in using public health data to inspire change in healthcare policy and delivery. 
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+I have a variety of experiences in fields like publishing, data analytics, and political action and advocacy.  
+
+## Education 
+
+**Master of Public Health** 							
+June 2023
+Columbia University Mailman School of Public Health
+Candidate, Department of Population and Family Health
+Certificate in Applied Biostatistics and Public Health Data Science
+GPA: 3.95
+
+**Bachelor of Science in Global Disease Biology** 				
+June 2020
+Minors in Philosophy and French
+University of California, Davis
+
+**Fall Semester Abroad: French Immersion**					
+December 2019
+University of California Education Abroad Program			
+Sciences Politiques Lyon- Institut d’Études Politiques
+L’Université Lumière Lyon 2
+
+
+## Experience 
+
+**National Council of Jewish Women**        Graduate Fellow, Government Relations & Advocacy        	    
+September 2022-Present
+
+•	Drafting issue portfolios, advocacy material, op-eds and letters of support on behalf of the organization. 
+•	Gaining an understanding of the legislative process by assisting with legislative hearings, briefings, national coalition meetings, rallies, and press conferences.   
+
+
+**ICAP Global Health at Columbia**        Summer Research Assistant 					
+May 2022- Present 
+
+•	Developed a data analysis project working with Covid-19 data. 
+•	Gained applicable data science skills in SAS. 
+•	Developing a research question, analysis plan, and reported key findings in preparation for an academic paper. 
+
+***The Desperate Hours***       Researcher and Fact Checker					
+February 2022- June 2022
+
+Working with Marie Brenner, Author and Vanity Fair Writer-at-Large, I:
+
+•	Served as a fact checker and researcher on The Desperate Hours, a journalistic account of the COVID-19 pandemic inside the New York Presbyterian hospital system.
+
+•	Gained experience in copy editing, fact checking a large research piece, and science writing. 
+
+•	Produced all source notes while working with a team of researchers to produce a manuscript on an accelerated timeline. 
+
+
+**Students for Reproductive Freedom at UC Davis**       Co-Founder and Vice President 					
+April 2018-June 2020 
+
+•	Served as the Co-Founder and Vice President for this student organization.  
+•	As an affiliate of Planned Parenthood Generation Action, this student organization focuses on reproductive justice awareness on our campus.  
+•	Developed organizational structure and organized campus educational programming. 
+•	Assisted with lobbying and outreach efforts on the College Student Right to Access Act.  
+
+
+**Joan Viteri Memorial Clinic**       Lead Trainer								
+December 2018-June 2020 
+
+•	Served as the first ever Lead Trainer for this undergraduate-run community clinic.  
+•	Created and wrote the first training manual for clinic functions, including information on HIPAA, taking patient vitals, and sensitivity training guidelines.  
+•	Developed a curriculum and taught two new classes of volunteers, totaling 40 students, alongside another undergraduate. 
+
+
+**Falbe Lab**       Research Assistant 							
+January 2018-June 2020
+
+•	Assisted in public health research concerning young adult consumption of sugar-sweetened beverages.  
+•	Gained hands-on experience with data collection and analysis in a team setting, as well as experience writing academic papers.
+
+## Skills
+
+Quantitative Analysis – R Studio (beginner), SPSS (intermediate), SAS (intermediate) 
+
+Qualitative Analysis – MaxQDA 
+
+French Language – working fluency 
+
+Writing- journalistic and academic 
+
+Problem Solving 
+
+Public Speaking 
+
+Leadership Experience
+
+Microsoft Office Suite
+
+## Awards and Honors
+
+UC Davis Dean’s Honor List 							January 2017
+Mentioned for outstanding Fall Quarter GPA (3.91)
+
+Global Disease Biology Prize 							June 2020
+Honorable Mention, awarded to two students every academic year
+
+UC Davis Prized Writing								June 2020
+Honorable mention 
+
+## Licenses and Certifications 
+
+Emergency Medical Technician Basic (October 2017) 
+
+## Relevant Coursework
+
+**Biostatistics**
+
+Categorical Data Analysis
+
+Regression I
+
+Data Science (using R)
+
+Quantitative Data Analysis (using SPSS)
+
+Statistical Computing with SAS
+
+
+**Population and Family Health**
+
+Program Planning and Evaluation
+
+Research Design and Data Collection 
+
+Planning, Managing and Communicating Evidence-Based Public Health Research
+

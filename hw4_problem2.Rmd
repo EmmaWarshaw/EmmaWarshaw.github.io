@@ -15,6 +15,8 @@ library(plotly)
 
 Column {data-width=650}
 -----------------------------------------------------------------------
+
+### Chart A
 ```{r, echo=FALSE}
 data_restaurants = rest_inspec
   
@@ -22,10 +24,13 @@ data_restaurants %>%
 count(boro) %>%
   mutate(boro = fct_reorder(boro, n)) %>%
   plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar", colors = "viridis")
+
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
+
+### Chart B
 ```{r, echo=FALSE}
 box_plot = 
   data_restaurants %>%
@@ -34,11 +39,16 @@ box_plot =
   drop_na(score) %>%
   ggplot(aes(x = boro, y = score, fill = boro)) + 
   geom_boxplot() + 
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(
+    title = "Boxplot of Scores in Each Borough"
+  ) 
 
 ggplotly(box_plot)
   
 ```
+
+### Chart C
 
 ```{r, echo=FALSE}
 thai_plot = 
@@ -53,7 +63,5 @@ thai_plot =
   ) 
 
 ggplotly(thai_plot)
+
 ```
-
-
-
